@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Mamura</string>
+    <array name="myFriends">
+        <item>Akter Hossain Tanim</item>
+        <item>Zahirul Islam Chowdhury</item>
+        <item>Rabby Rahmatullah</item>
+        <item>Mokammel Akash</item>
+        <item>Tofajjol Hossain Sadekpuri</item>
+        <item>Joniyed Jones Sharker</item>
+        <item>Arif Hossain</item>
+        <item>Nahidul Islam</item>
+        <item>Juwel Sheikh</item>
+        <item>Who I am ?</item>
+    </array>
+</resources>

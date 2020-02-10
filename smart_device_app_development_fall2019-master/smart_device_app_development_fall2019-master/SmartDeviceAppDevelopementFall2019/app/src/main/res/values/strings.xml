@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SmartDeviceAppDevelopementFall2019</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_api_key">AIzaSyBXsr_Htj4cLuEc0bqRi08KDIZm_tthPBQ</string>
+</resources>

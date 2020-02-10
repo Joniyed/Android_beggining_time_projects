@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FriendZoneTextOnly</string>
+
+    <string-array name="friend">
+
+        <item>nahid</item>
+        <item>tanim</item>
+        <item>Akash</item>
+        <item>Jones</item>
+        <item>Zahir</item>
+        <item>rabby</item>
+
+    </string-array>
+</resources>

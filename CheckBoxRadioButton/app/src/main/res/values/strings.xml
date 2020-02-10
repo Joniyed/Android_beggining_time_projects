@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CheckBoxRadioButton</string>
+    <string name="cse">CSE</string>
+    <string name="bba">BBA</string>
+    <string name="showbutton">Show</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="bluetooth">Bluetooth</string>
+</resources>

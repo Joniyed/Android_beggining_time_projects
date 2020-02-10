@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="@android:color/holo_blue_bright"
+    android:id="@+id/mainlayoutId"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_blue_light"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:onClick="show_msg"
+            tools:ignore="ButtonStyle,OnClick"
+            />
+        <Button
+            android:id="@+id/hide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hide"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_blue_light"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:onClick="hide_msg"
+            tools:ignore="ButtonStyle,OnClick" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jb"
+        android:textSize="40sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        />
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:hint="@string/number1"
+        android:textStyle="bold"
+        android:inputType="numberDecimal"
+    />
+    <EditText
+        android:id="@+id/number2"
+        android:padding="10dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="@string/number2"
+        android:textStyle="bold"
+        android:inputType="numberDecimal"
+    />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plus"
+            android:onClick="do_math"
+            tools:ignore="ButtonStyle,OnClick" />
+        <Button
+            android:id="@+id/minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/minus"
+            android:onClick="do_math"
+            tools:ignore="ButtonStyle,OnClick" />
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clear"
+            android:onClick="do_math"
+            tools:ignore="ButtonStyle,OnClick" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        />
+
+    <CheckBox
+        android:id="@+id/CSEid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CSE"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        />
+    <CheckBox
+        android:id="@+id/EEEid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EEE"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        />
+    <CheckBox
+        android:id="@+id/BBAid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BBA"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        />
+    <Button
+        android:onClick="checkboxShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/showButton"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_dark"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/checkboxResultId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/background_dark"
+        />
+
+
+
+</LinearLayout>

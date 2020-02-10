@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Joniyed360</string>
+    <string name="name">Md joniyed Bhuiyan</string>
+    <string name="age">22 years old</string>
+    <string name="versity">SouthEast University</string>
+    <string name="myself">
+        I am basically an extrovert person and so I make friends very easily. I have so many friends and we all enjoy a lot. I visit their homes and they also visit my home. I also like drawing and painting and playing outdoor games like volleyball and badminton.
+        At school we have the coaching for these and so it makes it easy for me to learn well, these sport activities. During my free time, I draw pictures and paint them.I have done three four paintings that have been put up at my home.
+        \n\n
+        Apart from these activities, I also like reading and cooking and so I read a lot of books. Detective novels are what I like the best now and have a great collection on them. Cooking is something I enjoy and so I watch my Mom make dishes and also help her and sometimes give a try in making them.
+        Now my father is back and we all live in a good apartment here in Chennai. I live with my parents and little brother. We are a small and happy family.
+    </string>
+    <string name="b">45th batch</string>
+    <string name="dept">Computer Science</string>
+    <string name="click">Show</string>
+    <string name="hide">Hide</string>
+    <string name="ShowButtonClicked">You Clicked the Show Button</string>
+    <string name="HideButtonClicked">You Clicked the Hide Button</string>
+
+</resources>

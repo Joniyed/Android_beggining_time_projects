@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DatePickerDialuge</string>
+    <string name="show">show</string>
+    <string name="exit">Exit</string>
+    <string name="alertTitle">Alert--</string>
+    <string name="alertMsg">Do you want to exit ?</string>
+</resources>

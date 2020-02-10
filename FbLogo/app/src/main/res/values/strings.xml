@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FbLogo</string>
+    <string name="profile">profileId</string>
+    <string name="cameraLogo">cameraLogo</string>
+    <string name="cameratext">cameratext</string>
+    <string name="cameratext1">cameratext</string>
+    <string name="button1">ADD</string>
+    <string name="button2">VIEW</string>
+    <string name="button3">EDIT</string>
+    <string name="button4">MORE</string>
+    <string name="textview1">Title:</string>
+    <string name="textview2">This is my Design.....</string>
+    <string name="coverImage_land">coverImage_land</string>
+    <string name="cameLand">cameLand</string>
+    <string name="profileLand">profileLand</string>
+    <string name="Cover">Cover</string>
+    <string name="titleLand">Title:</string>
+    <string name="textview3Land">This is my design for landscape mode......</string>
+</resources>

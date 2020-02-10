@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyTextViewDemo</string>
+
+    <string name="jb">Md joniyed Bhuiyan</string>
+    <string name="show">Show</string>
+    <string name="hide">Hide</string>
+    <string name="text">Done</string>
+    <string name="toastclick">You clicked the show button</string>
+    <string name="tosthide">You clicked the hide button</string>
+    <string name="number1">Enter number 1</string>
+    <string name="number2">Enter number 2</string>
+    <string name="plus">ADD</string>
+    <string name="minus">SUB</string>
+    <string name="clear">Clear</string>
+    <string name="custom_string">You click this image.....</string>
+    <string name="CSE">CSE</string>
+    <string name="BBA">BBA</string>
+    <string name="MBA">MBA</string>
+    <string name="EEE">EEE</string>
+    <string name="showButton">Show</string>
+    <string name="selected"> is selected..</string>
+</resources>

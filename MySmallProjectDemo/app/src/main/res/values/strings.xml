@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MySmallProjectDemo</string>
+    <string name="name">Name</string>
+    <string name="Dept">Department</string>
+    <string name="batch">Batch</string>
+    <string name="seu">Souteast University</string>
+    <string name="cse">Computer Science and Engineering</string>
+    <string name="th">45th</string>
+    <string name="studentName">Student?</string>
+    <string name="nameHint">Enter your name..</string>
+    <string name="save">Save</string>
+</resources>

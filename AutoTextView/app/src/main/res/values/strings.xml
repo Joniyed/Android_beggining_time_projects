@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AutoTextView</string>
+
+    <string name="hint">Enter your country name..</string>
+
+    <string-array name="country_name">
+
+        <item>Afghanistan</item>
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>SriLenka</item>
+        <item>Nepal</item>
+        <item>Bhutan</item>
+        <item>Maldive</item>
+        <item>Australia</item>
+        <item>United States</item>
+        <item>United Kingdom</item>
+        <item>Germany</item>
+        <item>France</item>
+        <item>England</item>
+        <item>New Ze Land</item>
+        <item>Iran</item>
+        <item>KSA</item>
+        <item>UAE</item>
+
+    </string-array>
+</resources>

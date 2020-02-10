@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FriendZoneGrid</string>
+    <string name="jb">Who am I ?</string>
+
+    <string-array name="FriedsList">
+        <item>Akash</item>
+        <item>Joinal</item>
+        <item>Jones</item>
+        <item>Nahid</item>
+        <item>Rabby</item>
+        <item>Tanim</item>
+        <item>Tofajjal</item>
+    </string-array>
+
+    <string-array name="FullName">
+        <item>Mokammel Akash</item>
+        <item>Zahirul Chowdhury Joinal</item>
+        <item>Joniyed Jones Sharker</item>
+        <item>Nahidul Islam</item>
+        <item>Rabby Rahmatullah</item>
+        <item>Akter Hossain Tanim</item>
+        <item>Tofajjol Hossain SadhekPuri</item>
+        <item>Md. Joniyed Bhuiyan</item>
+    </string-array>
+</resources>

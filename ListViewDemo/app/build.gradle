@@ -1,0 +1,29 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.two"
+    defaultConfig {
+        applicationId "dell.example.listviewdemo"
+        minSdkVersion 24
+        targetSdkVersion 29
+        versionCode 1
+        versionName "one.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:one.0.two'
+    implementation 'androidx.constraintlayout:constraintlayout:one.one.three'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:one.one.one'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:three.one.one'
+}

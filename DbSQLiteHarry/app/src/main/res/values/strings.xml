@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DbSQLiteHarry</string>
+    <string name="addcontact">AddContact</string>
+    <string name="delete">Delete</string>
+    <string name="number">number</string>
+    <string name="saved_contatct">Saved Contatct</string>
+    <string name="name">name</string>
+</resources>

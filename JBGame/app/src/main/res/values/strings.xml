@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">JBGame</string>
+    <string name="title">Guessing Game (Jb)</string>
+    <string name="hint">Enter your guess here (1–10)</string>
+    <string name="check">Check</string>
+    <string name="error">Enter valid input</string>
+    <string name="won">Congrats!!!!! Your guess is correct....</string>
+    <string name="loss">OH!Sorry … Your guess is not correct…Random number was: </string>
+    <string name="author">@Joniyed360</string>
+</resources>

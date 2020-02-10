@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        >
+
+
+    <CheckBox
+        android:id="@+id/cseid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cse"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        />
+    <CheckBox
+        android:id="@+id/bbaid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bba"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/showbutton"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:onClick="showCheckBox"
+            android:textStyle="bold"
+            tools:ignore="OnClick" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/radioGroupId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
+
+            <RadioButton
+                android:id="@+id/maleId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/male"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                />
+
+            <RadioButton
+                android:id="@+id/femaleId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/female"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                />
+        </RadioGroup>
+
+        <Button
+            android:onClick="showradio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/showbutton"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textAllCaps="true"
+            tools:ignore="OnClick" />
+
+    </LinearLayout>
+
+
+    <RatingBar
+        android:id="@+id/ratingBarId"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize=".5"
+        android:progressBackgroundTint="@android:color/holo_blue_bright"
+        android:progressTint="@android:color/background_dark"
+        android:rating="2.5"
+        />
+
+    <SeekBar
+        android:id="@+id/seekBarId"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:thumbTint="@android:color/holo_blue_bright"
+        />
+
+
+    <Switch
+        android:id="@+id/switchId"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bluetooth"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/checkboxResultId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+</LinearLayout>

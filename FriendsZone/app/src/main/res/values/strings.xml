@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FriendsZone</string>
+    <array name="myFriends">
+        <item>Who am I ?</item>
+        <item>Akter Hossain Tanim</item>
+        <item>Mokammel Akash</item>
+        <item>Zahirul Islam Chowdhury</item>
+        <item>Rabby Rahmatullah</item>
+        <item>Tofajjol Hossain SadekPuri</item>
+        <item>Joniyed Jones Sharker</item>
+        <item>Nahidul Islam</item>
+        <item>Arif Hossain</item>
+        <item>Juwel Sheikh</item>
+    </array>
+
+    <string name="jb">I am joniyed Bhuiyan</string>
+    <string name="tk">Akter Hossain Tanim</string>
+    <string name="search">Search</string>
+</resources>
